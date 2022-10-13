@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  
+  
+  
+  
+  
+  
+  <style>
+    body{
+      background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% ); 
+      background-repeat: no-repeat;
+      background-size: 1000px 1000px;
+      margin-left: 16%;
+      margin-top: 22%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #navbar{
+      border: thin white;
+      width: 300px;
+      height: 500px;
+      display: inline-block;
+      font-size: 170%;
+      color: white;
+      background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+      border:solid black;
+     
+     
+      
+    }
+    
+    #create{
+      border: solid black;
+      width: 350px;
+      height: 500px;
+      display: inline-block;
+      background-color: #33445c;
+      color: white;
+      font-family: 'Righteous', cursive;
+      margin-inline: -10px
+ 
+    
+     
+    }
+    #create>h1{
+      text-align: center;
+      font-size: 150%;
+      font-weight: 150;
+    }
+    
+    #navbar>h2{
+      font-size: 80%;
+      text-align: center;
+      border:2px solid white ;
+     border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin: 165px 80px 70px;
+      padding: 20px;
+      line-height: 40px;
+      background-color: #33445c;
+      font-family: 'Righteous', cursive;
+      font-weight: 300;
+      
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+      
+    }
+    
+    form{
+      font-size: 100%;
+      padding: 50px;
+      border: none;
+    }
+    
+    label{
+      display: block;
+    }
+    
+    input[type]{
+      border-radius: 5px;  
+      color: white;
+      background-color: #33445c;
+      border: thin solid white;
+    }
+    
+    ::placeholder{
+      font-size: 50%;
+      color: white;
+    }
+    
+    #category{
+      font-size: 70%;
+    }
+    
+    div>a{
+      font-size: 30%;
+      display: inline-block;
+      margin-left: 35px;
+    }
+    
+    input[type=submit]{
+      width: 250px;
+      border-radius: 5px;
+      background-color: #1ed5b9;
+      font-size: 80%;
+      
+    }
+    .button{
+    border: solid black;
+   height: 20px;
+   text-align: center;
+   color: white;
+   box-shadow: inset 0 0 0 0 gold;
+   outline: none;
+   transition: ease-in 0.3s;
+   
+}
+ 
+ .button:hover{
+   box-shadow: inset 350px 0 0 0 gold;
+   transition: ease-in 0.3s;
+ }
+  
+  a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+a::after{
+  content: "";
+  background-color: #1ed5b9;
+  mix-blend-mode: exclusion;
+  width: calc(100% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -10px;
+	transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+a:hover::after{
+	height: calc(100% + 8px)
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</head>
+
+<body>
+
+    <div id="navbar">
+      <h2>Masai Multiplex</h2>
+      <div>
+        <a href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a href="./booking.html">
+          <h2>All Movies</h2>
+        </a>
+        <a href="./buy.html">
+          <h2>My Movies</h2>
+        </a>
+      </div>
+    </div>
+  
+  
+  
+    <div id="create">
+      <h1>Multiplex Management System</h1>
+ 
+  
+  
+  
+      <form>
+        <input id="name" placeholder="  Movie Name" type="text" />
+  
+  <br>
+  <br>
+  
+  
+        <input id="mainActor"  placeholder=" Main Actor Name" type="text" />
+  
+  <br>
+  <br>
+
+  
+  
+  
+        <input id="desc" placeholder="  Movie Description" type="text" />
+  <br>
+  <br>
+ 
+  
+ 
+  
+  
+  
+        <label for="">Release Date:-</label>
+        <input type="date" id="release" />
+  <br>
+  <br>
+ 
+  
+  
+  
+        <select id="category">
+          <option value="">Select Category</option>
+          <option value="Fiction">Fiction</option>
+          <option value="Action">Action</option>
+          <option value="Comedy">Comedy</option>
+        </select>
+  
+  <br>
+  <br>
+  
+  
+  
+  
+  
+        <input id="price" placeholder="  Ticket Price" type="number" />
+  
+  <br>
+  <br>
+  <br>
+  
+        <input type="submit" value="Submit" class="button"/>
+  
+  
+  
+      </form>
+  
+  
+  
+    </div>
+  
+ 
+</body>
+
+</html>
