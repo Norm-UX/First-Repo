@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    #magazine{
+      margin: 60px 60px 0px 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      width: 840px;
+      
+      
+    }
+    
+    #nbc,#menshealth,#prevention,#marie,#parade{
+      height: 30px;
+    }
+    #reader{
+      height: 50px;
+    }
+    #get_to{
+      margin: 110px -150px 0 60px;
+      width: 700px;
+      
+      height: 200px;
+      
+     
+      
+    }
+    #avac{
+      transform: translateX(615px);
+      margin-top: -80px;
+      height: 320px;
+      width: 296.5px;
+     
+     
+    }
+    
+    #img1{
+      height: 60px;
+       margin-top: 50px;
+       margin-left: 80px;
+    }
+    
+    .side1{
+      width: 350px;
+      transform: translateY(-140px);
+      font-size: 18px;
+      margin-left: 20px;
+    }
+     .side1,#img1{
+       display: inline-block;
+       
+     }
+    
+    #list1{
+      display: grid;
+      grid-template-columns: 140px 150px;
+      grid-gap: 20px;
+      margin-top: 30px;
+      margin-left: -20px;
+    }
+    
+    #pic1{
+      border-radius: 50px 10px 10px 10px;
+      z-index: 1;
+      position: relative;
+    }
+    #box1{
+      background-color: #1bc38a;
+      height: 80px;
+      width: 80px;
+      border-radius: 6px;
+      margin-left: -10px;
+      transform: translateY(-75px);
+      z-index: 0;
+    }
+    
+   #para1{
+     
+     margin-top: -20px;
+   }
+   
+   #get_to h2{
+     
+     font-size: 200%;
+   }
+   
+   #get_to h3{
+     
+     font-size: 110%;
+     font-weight: 350;
+     margin-top: -25px
+   }
+   
+   #get_to h3 span{
+     
+     font-weight: 900
+   }
+   
+   
+   #for_everyone{
+     margin-top: -50px;
+   }
+   
+   #img2{
+      height: 400px;
+       margin-top: 50px;
+       transform: translateX(240px);
+       border-radius: 10px 10px 50px 10px;
+       position: relative;
+       z-index: 1
+    }
+    
+    .side2{
+      width: 370px;
+      transform: translateY(-205px);
+      font-size: 18px;
+      margin-left: -580px;
+    }
+     .side2,#img2{
+       display: inline-block;
+       
+     }
+    
+    #list2{
+      display: grid;
+      
+      grid-gap: 20px;
+      margin-top: 30px;
+      margin-left: -20px;
+    }
+    
+    #pic2{
+      border-radius: 50px 10px 10px 10px;
+      z-index: 1;
+      position: relative;
+    }
+    #box2{
+      background-color: #f39c21;
+      height: 80px;
+      width: 80px;
+      border-radius: 6px;
+      margin-left: 573px;
+      transform: translateY(-416px);
+      z-index: 0;
+    }
+    
+   #para2{
+     
+     margin-top: -10px;
+   }
+      
+   
+   
+   
+   #for_life{
+     margin-top: -90px;
+   }
+   
+   #img3{
+       margin-top: 50px;
+       transform: translateX(50px);
+       border-radius: 10px 10px 10px 10px;
+       position: relative;
+       z-index: 1
+    }
+    
+    .side3{
+      width: 385px;
+      transform: translateY(-500px);
+      font-size: 18px;
+      margin-left:490px;
+    }
+     .side3,#img3{
+       display: inline-block;
+       
+     }
+    
+    #list3{
+      display: grid;
+      
+      grid-gap: 20px;
+      margin-top: 30px;
+      margin-left: -20px;
+    }
+    
+    #pic3{
+      border-radius: 10px 50px 10px 10px;
+      z-index: 1;
+      position: relative;
+    }
+    #box3{
+      background-color: #F74542;
+      height: 80px;
+      width: 80px;
+      border-radius: 6px;
+      margin-left: -14px;
+      transform: translateY(-416px);
+      z-index: 0;
+    }
+    
+   #para3{
+     
+     margin-top: 40px;
+   }
+        
+       
+       
+       
+        
+     #beyond{
+       margin-top: -400px;
+     }
+     
+   #img4{
+       margin-top: 50px;
+       transform: translateX(440px);
+       border-radius: 10px 10px 10px 50px;
+       position: relative;
+       z-index: 1
+    }
+    
+    .side4{
+      width: 360px;
+      transform: translateY(-470px);
+      font-size: 18px;
+      margin-left:70px;
+    
+    }
+     .side4,#img4{
+       display: inline-block;
+       
+     }
+    
+    #list4{
+      display: grid;
+      grid-template-columns: 140px 150px;
+      grid-gap: 20px;
+      margin-top: 30px;
+      margin-left: -20px;
+    }
+    
+    #pic4{
+      border-radius: 10px 50px 10px 10px;
+      z-index: 1;
+      position: relative;
+    }
+    #box4{
+      background-color: #2e73b4;
+      height: 80px;
+      width: 80px;
+      border-radius: 6px;
+      margin-left: 773px;
+      transform: translateY(-73px);
+      z-index: 0;
+    }
+    
+   #para4{
+     
+     margin-top: -10px;
+   }
+        
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  </style>
+  
+ </head>
+
+<body>
+
+<div id="magazine">
+  <img src="/Files/85c79988-767d-486a-82ca-9e9482b92455_company-1@2x.png" alt="/Files/85c79988-767d-486a-82ca-9e9482b92455_company-1@2x.png" id="nbc">
+  <img src="/Files/6bd07041-3f55-485d-89c1-5229f6555f10_company-2@2x.png" alt="/Files/6bd07041-3f55-485d-89c1-5229f6555f10_company-2@2x.png" id="menshealth">
+  <img src="/Files/a0b2f5b5-ccfe-4a2f-917e-d42744ff546c_company-3@2x.png"  alt="/Files/a0b2f5b5-ccfe-4a2f-917e-d42744ff546c_company-3@2x.png" id="prevention">
+  <img src="/Files/9606bffa-ce4e-4669-931f-bd24ffacf062_company-4@2x.png"  alt="/Files/9606bffa-ce4e-4669-931f-bd24ffacf062_company-4@2x.png" id="reader">
+  <img src="/Files/9cb7402b-b14f-45e7-9b92-9eeddfb5973f_company-5@2x.png" alt="/Files/9cb7402b-b14f-45e7-9b92-9eeddfb5973f_company-5@2x.png" id="marie">
+  <img src="/Files/7edf097e-db2c-4f7b-9384-3017911f6fc0_company-6@2x.png" alt="/Files/7edf097e-db2c-4f7b-9384-3017911f6fc0_company-6@2x.png" id="parade">
+  
+</div>
+
+<div id="get_to">
+  <h2>Get to Know Keto & Low Carb</h2>
+  <h3>And get results in as little as <span style="color: #1bc38a">3 weeks.</span></h3>
+
+  <img src="/Files/IMG_20221015_104935.jpg" alt="/Files/IMG_20221015_104935.jpg" id="avac" >
+</div>
+
+<div id="keto">
+  
+ 
+<div id="for_you"> 
+<div id="img1">
+  <img src="/Files/030dabe6-7bc1-4df7-953f-4ddf8c3f7a97_article-1@2x.jpeg" alt="/Files/030dabe6-7bc1-4df7-953f-4ddf8c3f7a97_article-1@2x.jpeg" height="400px" id="pic1">
+  <div id="box1">
+    
+  </div>
+</div>
+
+
+  <div class="side1">
+  <h2>
+   <span style="font-weight: 300 ">Keto for</span> you<span style="color:#1bc38a ;font-size: 50px ">.</span>
+  </h2>
+  
+  <div id="para1">
+  <p>Personalize your low-carb journey and meet all your important health goals. We're more than just a Keto calorie counter, Carb Manager integrates seamlessly with FitBit, Garmin, and hundreds of other apps and devices via Apple Health and Google Fit, helping you to:
+  </p>
+  </div>
+  
+  <ul id="list1">
+    <li>Lose weight quickly</li>
+    <li>Reduce inflammation</li>
+    <li>Optimize energy</li>
+    <li>Gain mental clarity</li>
+    <li>Restore balance</li>
+    <li>Manage cravings</li>
+  </ul>
+  </div>
+</div>
+</div>
+
+<div id="for_everyone">
+  <div id="img2">
+    <img src="/Files/1b4d20a7-fd3b-42a0-ba35-cae306374b4a_article_2@2x.jpg" alt="/Files/1b4d20a7-fd3b-42a0-ba35-cae306374b4a_article_2@2x.jpg" id="img2" height="400px" id="pic2">
+  
+   <div id="box2">
+    
+  </div>
+  </div>
+<div class="side2">
+  <h2><span style="font-weight:300">Keto for</span> Everyone<span style="color:#1bc38a ;font-size: 50px ">.</span></h2>
+  
+  <div id="para2"><p>Keto isn't just another diet. It's a lifestyle. And Carb Manager isn't just another Keto diet tracker. Our state-of-the-art features make it convenient and fun for everyone to join in.</p></div>
+  <ul id="list2">
+    <li>Save time with automatic meal plans and grocery lists tailored to specific food preferences and allergies</li>
+    <li>Stay inspired by our database of thousands of Keto recipes</li>
+    <li>Have fun tracking the macros and micros of over 1 million foods with cutting-edge features, like our popular Snap Foods feature that uses photo recognition technology</li>
+  </ul>
+
+</div>
+</div>
+
+
+<div id="for_life">
+  <div id="img3">
+    <img src="/Files/26adf515-88d3-46ff-b5c4-f73eb3c6c78f_article_3@2x.jpg" alt="/Files/26adf515-88d3-46ff-b5c4-f73eb3c6c78f_article_3@2x.jpg" id="pic3" height="400px">
+    
+    
+   <div id="box3">
+    
+  </div>
+  </div>
+  
+  <div class="side3">
+  <h2><span style="font-weight: 300 ">Keto for</span> life<span style="color:#1bc38a ;font-size: 50px ">.</span></h2>
+  <p>Carb Manager is here to help you stick to your low-carb lifestyle.</p>
+  
+  
+ <ul id="list3">
+  <li>Worried about cravings?</li>
+  <li>Want to know how your kids can do it too?</li>
+  <li>Wonder how long before you can see results?</li>
+ </ul>
+ 
+ 
+  <p id="para3">Our popular blog will keep you inspired and Informed. And our active social media community lets you stay connected to other low-carb folks, so you'll always get the support you need.</p>
+  </div>
+ </div>
+
+ 
+<div id="beyond">
+  <div>
+    <img src="/Files/21877cf5-6425-41cf-b50d-41a16715d23b_article-4@2x.jpeg" alt="/Files/21877cf5-6425-41cf-b50d-41a16715d23b_article-4@2x.jpeg" id="img4" height="400px" id="pic4">
+    
+   <div id="box4">
+    
+  </div>
+  </div>
+  <div class="side4">
+ <h2><span style="font-weight: 300 ">Keto</span> beyond<span style="color:#1bc38a ;font-size: 50px ">.</span></h2> 
+ <p id="para4">We go way beyond the typical low-carb tracker to make sure you're at your best. With Carb Manager, you can easily track your:</p>
+ <ul id="list4">
+   <li>Ketones</li>
+   <li>Insulin</li>
+   <li>Glycemic load</li>
+   <li>Blood Glucose</li>
+   <li>Intermediate fasting</li>
+   <li>GKI and much more...</li>
+ </ul>
+ 
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
