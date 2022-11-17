@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <style>
+  img{
+    width: 400px;
+  }
+  </style>
+
+
+
+
+
+</head>
+
+<body>
+
+  <div id="img1">
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwBb3OswRZXLtYZeTVB2PpL7MJldNAgyC2yA&usqp=CAU" alt="" id="img">
+  </div>
+
+  <button id="btn1">Turn On Bulb </button>
+
+
+  <button id="btn2">Turn Off Bulb </button>
+
+  >
+
+
+
+</body>
+
+</html>
+<script>
+  var color1 = document.getElementById("btn1")
+
+  color1.onclick = function() {
+    document.querySelector("body").style.backgroundColor = "red"
+
+    document.querySelector("body").style.marginLeft = "300px"
+    
+    document.querySelector("body").style.transition="1s ease-out"
+    
+    document.getElementById("img").src =
+     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwBb3OswRZXLtYZeTVB2PpL7MJldNAgyC2yA&usqp=CAU'
+    
+    
+  }
+  var color2 = document.getElementById("btn2")
+
+  color2.onclick = function() {
+      document.querySelector("body").style.backgroundColor = "blue"
+
+      document.querySelector("body").style.marginLeft = "5px"
+
+      document.getElementById("img").src =
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8OpHVdsbADCdveoWJN1q5XQcAdFyVb19XWQ&usqp=CAU'
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+    
+    </script>

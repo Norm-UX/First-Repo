@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  
+  <style>
+    
+    button{
+     
+      width: 50%;
+      
+      
+    }
+    
+    #btn{
+      text-align: center;
+   
+      height: 50px;
+      
+      
+     
+    }
+    
+    
+    #maindiv{
+      display: flex;
+      border: solid black;
+      width: 1870px;
+   
+      
+      margin: auto;
+      
+     
+    }
+
+   #window{
+     border: solid black;
+     display: flex;
+     width: 455px;
+     overflow: hidden;
+     
+   }
+    
+    
+    
+  </style>
+  
+  
+  
+  
+  
+  
+  
+  
+</head>
+
+<body>
+
+<div id="window">
+ <div id="maindiv">
+  <div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJxauSFjSkBqja4YeoavQ-Ni8U1ywlj_nO_DE_xjEnYr9Dvaj7-IBhjo&s=10"  alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJxauSFjSkBqja4YeoavQ-Ni8U1ywlj_nO_DE_xjEnYr9Dvaj7-IBhjo&s=10" id=""drstrange>
+  </div>
+ <div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSCZ8WH-Q4qUlvV5_oU1B94A9-P2YutFmww&usqp=CAU" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSCZ8WH-Q4qUlvV5_oU1B94A9-P2YutFmww&usqp=CAU" id="wakanda">
+  </div>
+  <div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUhGVp-uUy72j0LuzUpDbgo-IoXPIw7nylgA&usqp=CAU" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUhGVp-uUy72j0LuzUpDbgo-IoXPIw7nylgA&usqp=CAU" id="spiderman">
+</div>
+<div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh9Kw1K8_ruqha2th2d_9oIGgv-YCh_BldNQ&usqp=CAU" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh9Kw1K8_ruqha2th2d_9oIGgv-YCh_BldNQ&usqp=CAU" id="endgame">
+</div>
+  </div>
+  
+</div>
+
+<div id="btn">
+<button>More ></button>
+
+
+</div>
+
+
+
+
+</body>
+
+</html>
+
+<script>
+  /*
+  let value1= "translateX(-25%)"  
+  let value2="translateX(-50%)"  
+  
+  var carousel1 = document.getElementById('btn')
+  
+  carousel1.onclick = function(){
+    document.getElementById("maindiv").style.transform=value1
+    
+    document.getElementById("maindiv").style.transition="2s ease-out"
+  
+  
+  }
+  
+  */
+  
+  let slide =["translateX(0%)","translateX(-25%)","translateX(-50%)","translateX(-75%)","translateX(-100%)"]
+  
+  let i=0;
+  
+  
+  var carousel1 = document.getElementById('btn')
+  
+  carousel1.onclick = function(){
+    if(i >=3){
+      i=0
+    }else{
+      i++
+      
+    }
+    
+  
+    
+  
+    document.getElementById("maindiv").style.transform=slide[i]
+    
+    document.getElementById("maindiv").style.transition="1s ease-in"
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</script>
