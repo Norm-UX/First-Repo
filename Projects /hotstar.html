@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+
+
+  <style>
+    body{
+      background-color: #151c2c;
+      color: white;
+    }
+   #hotstarlogo{
+     width: 10%;
+     transform: translateX(-400%);
+   } 
+    
+ #navdiv{
+
+   text-align: center;
+   height: 50px;
+   
+ }
+ 
+    #menu{
+     transform: translateX(-980%);
+     border: none;
+     margin-top: 5px
+   
+    }
+    
+    
+    #search{
+      margin-left: 56%;
+    
+      transform: translateY(-70%)
+      
+    }
+    
+    
+    .latest img{
+  
+     width: 150px;
+     
+     
+      }
+    
+    .latest div{
+      display: inline-block;
+   
+      width: 15%;
+      margin-left: 10px;
+     
+    }
+    .latest{
+      margin-left: 5px;
+    }
+    
+    
+    #footer{
+      margin-top: 10%
+    }
+    
+    a,p{
+      margin-left: 20px;
+      color: white;
+      font-size: 10px
+    }
+    
+    p{
+      font-weight: 400px
+    }
+    
+    #getit img{
+      width: 100px;
+    }
+    
+    #links{
+     
+      width: 60%
+    }
+    
+    #terms{
+   
+      width: 60%;
+    }
+    
+   #socials{
+   
+     width: 15%;
+     margin-left: 50px;
+     transform: translateY(-80%);
+   } 
+    
+    #socials img{
+      background-color: white;
+    }
+   #getit{
+  
+     width: 15%;
+     transform: translateY(-20%);
+   } 
+    
+   #terms,#getit,#socials{
+     display: inline-block
+   }
+   
+   
+   #searchbar{
+     background-color: #151c2c;
+     border-bottom: solid white;
+   }
+   
+   #subscribe{
+     background-color: #2a7dd0;
+     border: none;
+     color: white;
+     font-size: 13px
+   }
+   
+   #searchbtn img{
+     width: 15px
+   }
+   
+   #searchbtn{
+     border: none;
+     background-color: #151c2c;
+     
+   }
+   
+   #login{
+     border: none;
+     background-color: #151c2c;
+     color: white;
+     font-size: 13px;
+   }
+   
+   
+   
+   
+    
+  </style>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+<div id="maindiv">
+  
+  
+  <div id="navdiv">
+    
+    <nav>
+      <button id="menu"><img src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png"/></button>
+      
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRteslCDv9-A4o-FZMhK9xOLQy66FkzPahs8A&usqp=CAU" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Disney%2B_Hotstar_logo.svg/2560px-Disney%2B_Hotstar_logo.svg.png" id="hotstarlogo">
+      
+        <div id="search">
+      <input type="text" placeholder="Search" id="searchbar">
+    
+      <button id="searchbtn"><img src="https://img.icons8.com/tapes/40/null/experimental-search-tapes.png"/></button>  
+      
+      <button id="subscribe">Subscribe</button>
+      
+      <button id="login">LOGIN</button>
+     </div>
+    </nav>
+    
+  </div>
+  
+  <!--
+  
+  <div id="carousel">
+    <div>
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7" alt="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7">
+    </div>  
+    
+    <div>
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/6088/1000216088/1000216088-h" alt="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7">
+    </div>
+    
+    <div>
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8146/1418146-h-635ffedd5406" alt="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7">
+    </div>
+    
+    <div>
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7793/1417793-h-59d36e2e8015" alt="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7">
+    </div>
+    
+    <div>
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4248/1364248-h-04994afb88d4q" alt="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7">
+    </div>  
+    <div>
+        <img src="
+    https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6535/846535-h" alt="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7">
+    </div>  
+    
+    
+    <div>
+       <img src="
+    https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4855/1414855-h-d3c144f8834a" alt="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7">
+    </div>  
+    
+    
+  </div>
+  
+  -->
+  
+  
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/104/1410104-h-3fb74bdbcfd7" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/6088/1000216088/1000216088-h" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8146/1418146-h-635ffedd5406" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7793/1417793-h-59d36e2e8015" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6535/846535-h" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4855/1414855-h-d3c144f8834a" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+    
+  
+  
+  
+ <div class="latest">
+   
+ 
+   
+   <h4>Latest & Trending</h4>
+ 
+   
+   <div>
+     
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4856/1414856-v-fa398217196a" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/103/1410103-v-86e3d98722e8" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5052/1405052-v-2063bab41935" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/7869/1397869-v-f1300120c358" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/7076/1387076-v-baa4a3a98bd0" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/321/1380321-v-8de459f0eb8d" alt="">
+   </div>
+
+
+
+
+
+ </div> 
+  
+  
+ <div class="latest">
+  
+     <h4>Popular Shows</h4>
+   
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4249/1364249-v-2e30b93b7bb5" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4253/1364253-v-17a2ff74143c" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/321/1380321-v-8de459f0eb8d" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4267/1364267-v-59ed5cfdea3a" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4255/1364255-v-7d13c9d136b5" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5362/1395362-v-f8d73be7dd01" alt="">
+   </div>
+   
+ </div> 
+ 
+ 
+ 
+ 
+ 
+ <div class="latest">
+ 
+     <h4>Movies Recommend For You</h4>
+ 
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/896/580896-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/6536/846536-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/3669/593669-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/9233/1389233-v-9aaacc3bf07f" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/old_images/vertical/MOVIE/3314/1770003314/1770003314-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/8285/388285-v" alt="">
+   </div>
+   
+ </div> 
+ 
+ 
+ 
+ 
+ <div class="latest">
+ 
+     <h4>Shows Recommend For You</h4>
+  
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/8763/1308763-v-18eb691de01f" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/7527/267527-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2876/862876-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4267/1364267-v-59ed5cfdea3a" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4253/1364253-v-17a2ff74143c" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4249/1364249-v-2e30b93b7bb5" alt="">
+   </div>
+   
+ </div> 
+  
+ 
+ 
+ 
+ <div class="latest">
+     <h4>Popular Movies</h4>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/old_images/vertical/MOVIE/6088/1000216088/1000216088-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/4856/1414856-v-fa398217196a" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/896/580896-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/6536/846536-v" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5052/1405052-v-2063bab41935" alt="">
+   </div>
+   
+   <div>
+     <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/7416/957416-v" alt="">
+   </div>
+   
+ </div> 
+  
+  
+  
+  
+  
+  <div id="footer">
+    <div id="links">
+    <a href="#">About Disney+ Hotstar</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">FAQ</a>
+    <a href="#">Feedback</a>
+    <a href="#">Careers</a>
+    </div>
+    <div id="terms">
+    <p>© 2022 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved</p>
+    </div>
+    
+    <div id="socials">
+      <p> Connect with us</p>
+      <a href="#"><img src="https://img.icons8.com/material/24/000000/facebook-f.png"/></a>
+      
+      <a href="#"><img src="https://img.icons8.com/material/24/000000/twitter--v2.png"/></a>
+      
+    </div>
+    
+    <div id="getit">
+      
+      <p>Disney+ Hotstar App</p>
+      <img src="https://freepngimg.com/download/android/58659-play-google-app-soon-coming-android-store.png" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6yGhGZ3y1AWlawAeNEWi05wNq534qNSzAA&usqp=CAU">
+      
+      
+      
+    </div>
+    
+    
+    
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+
