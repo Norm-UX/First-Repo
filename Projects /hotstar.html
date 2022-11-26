@@ -18,7 +18,8 @@
     }
    #hotstarlogo{
      width: 10%;
-     transform: translateX(-400%);
+     transform: translateY(-40px);
+     margin-left: -70%
    } 
     
  #navdiv{
@@ -28,18 +29,21 @@
    
  }
  
-    #menu{
-     transform: translateX(-980%);
+    .dropdown{
+   
      border: none;
-     margin-top: 5px
+     margin-top: 5px;
+    
+     width: 80px
    
     }
     
     
     #search{
-      margin-left: 56%;
+      margin-left:58% ;
     
-      transform: translateY(-70%)
+      transform: translateY(-60px);
+    
       
     }
     
@@ -74,7 +78,7 @@
     }
     
     p{
-      font-weight: 400px
+      font-weight: 400px;
     }
     
     #getit img{
@@ -105,8 +109,11 @@
   
      width: 15%;
      transform: translateY(-20%);
+     
    } 
-    
+  #getit img{
+    margin-left: 15px
+  }  
    #terms,#getit,#socials{
      display: inline-block
    }
@@ -141,9 +148,17 @@
      font-size: 13px;
    }
    
-   
-   
-   
+   li{
+     background-color:#151c2c;
+     
+   }
+   .dropdown-item{
+     color: white
+   }
+   h4{
+     margin-left: 10px;
+     margin-top: 7px
+   }
     
   </style>
   
@@ -160,7 +175,23 @@
   <div id="navdiv">
     
     <nav>
+      <!--
       <button id="menu"><img src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png"/></button>
+      -->
+      
+      
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png"/>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Channel</a></li>
+    <li><a class="dropdown-item" href="#">Language</a></li>
+    <li><a class="dropdown-item" href="#">Genre</a></li>
+  </ul>
+</div>
+      
+      
       
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRteslCDv9-A4o-FZMhK9xOLQy66FkzPahs8A&usqp=CAU" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Disney%2B_Hotstar_logo.svg/2560px-Disney%2B_Hotstar_logo.svg.png" id="hotstarlogo">
       
