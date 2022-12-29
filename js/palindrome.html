@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+<script>
+
+let arr1=[];
+let arr2=[];
+let n= prompt("Enter the no. or string");//prerit
+
+let len=n.length
+
+//Converting the string to an array
+
+for (let i=0;i<len;i++){
+  
+  let m= n[i]
+  
+  arr1.push(m)
+}
+
+console.log(arr1);
+
+//Reversing array 1  
+
+for (let j=0;j<len;j++){
+  
+  let m= n[j]
+  
+  arr2.unshift(m)
+} 
+ 
+ 
+console.log(arr2);
+
+//Comparing arr1&arr2
+  
+for(k=0;k<len;k++){
+  if (arr1[k]!=arr2[k]){
+    console.log("Not Palindrome")
+  }
+  else{
+    console.log("Palindrome")
+  }
+}
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+</script>
